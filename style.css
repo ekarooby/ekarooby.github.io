@@ -83,13 +83,15 @@ main {
   color: #3d4d5c;
 }
 
-/* Section headings */
+/* Page titles */
 
 main > h1 {
   color: #102a43;
   font-size: 40px;
   margin-top: 0;
 }
+
+/* Section headings */
 
 .section-title {
   margin-top: 55px;
@@ -99,7 +101,13 @@ main > h1 {
   line-height: 1.3;
 }
 
-/* Research cards */
+/* Research page paragraphs */
+
+.research-text {
+  text-align: justify;
+}
+
+/* Homepage research cards */
 
 .research-grid {
   display: grid;
@@ -154,6 +162,7 @@ main > h1 {
 
 .button:hover {
   background: #284b6d;
+  text-decoration: none;
 }
 
 /* Publications */
