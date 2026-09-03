@@ -166,52 +166,6 @@ ol li {
   padding-left: 8px;
 }
 
-/* Teaching */
-
-.teaching-simple {
-  max-width: 900px;
-}
-
-.teaching-item {
-  padding: 0 0 26px;
-  margin-bottom: 26px;
-  border-bottom: 1px solid #e5e9ed;
-}
-
-.teaching-item:last-child {
-  border-bottom: none;
-}
-
-.teaching-item h2,
-.teaching-item h3 {
-  color: #102a43;
-  margin-top: 0;
-  margin-bottom: 6px;
-}
-
-.teaching-item h2 {
-  font-size: 24px;
-}
-
-.teaching-item h3 {
-  font-size: 18px;
-}
-
-.teaching-meta {
-  margin: 0 0 8px;
-  font-size: 14px;
-  font-weight: 600;
-  color: #6b7c8d;
-}
-
-.teaching-item p:last-child {
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-.teaching-heading {
-  margin-top: 40px;
-}
 
 /* General links */
 
