@@ -1,1 +1,95 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #1f2933;
+  background: #ffffff;
+  line-height: 1.6;
+}
 
+header {
+  background: #0f2742;
+  color: white;
+  padding: 18px 8%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav .name {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 25px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  max-width: 1000px;
+  margin: 50px auto;
+  padding: 0 25px;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  gap: 45px;
+  margin-top: 40px;
+}
+
+.hero-text {
+  flex: 1;
+}
+
+.hero h1 {
+  font-size: 42px;
+  margin-bottom: 5px;
+}
+
+.hero h2 {
+  font-size: 22px;
+  font-weight: normal;
+  color: #4b5563;
+}
+
+.hero p {
+  font-size: 17px;
+}
+
+.section-title {
+  margin-top: 50px;
+  font-size: 28px;
+  color: #0f2742;
+}
+
+footer {
+  margin-top: 60px;
+  padding: 25px;
+  text-align: center;
+  border-top: 1px solid #ddd;
+  color: #666;
+}
+
+@media (max-width: 700px) {
+  .hero {
+    flex-direction: column;
+  }
+
+  nav {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  nav a {
+    margin: 0 10px;
+  }
+}
