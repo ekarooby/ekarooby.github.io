@@ -204,6 +204,8 @@ main > h1 {
   font-size: 15px;
   line-height: 1.75;
   color: #3d4d5c;
+  text-align: justify;
+  hyphens: auto;
 }
 
 
