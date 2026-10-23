@@ -120,6 +120,8 @@ main {
   border-left: 4px solid #52708c;
 }
 
+/* Justified research introduction */
+
 .hero p {
   max-width: 800px;
   font-size: 17px;
@@ -127,6 +129,8 @@ main {
   line-height: 1.85;
   margin-top: 0;
   margin-bottom: 22px;
+  text-align: justify;
+  hyphens: auto;
 }
 
 
