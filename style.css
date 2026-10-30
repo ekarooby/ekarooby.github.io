@@ -1,4 +1,5 @@
-padding: 65px 30px 80px;
+@@ -64,6 +64,13 @@ main {
+  padding: 65px 30px 80px;
 }
 
 /* Justify paragraphs throughout the website */
@@ -10,31 +11,31 @@ main p {
 
 
 /* =========================================
-  HOMEPAGE HERO
+   HOMEPAGE HERO
 @@ -107,8 +114,6 @@ main {
-line-height: 1.5;
+  line-height: 1.5;
 }
 
 /* Research statement below subtitle */
 
 .research-statement {
-color: #123b5b;
-font-size: 21px;
+  color: #123b5b;
+  font-size: 21px;
 @@ -120,8 +125,6 @@ main {
-border-left: 4px solid #52708c;
+  border-left: 4px solid #52708c;
 }
 
 /* Justified research introduction */
 
 .hero p {
-max-width: 800px;
-font-size: 17px;
+  max-width: 800px;
+  font-size: 17px;
 @@ -266,8 +269,6 @@ main a:hover {
-text-decoration: underline;
+  text-decoration: underline;
 }
 
 /* Keep buttons white, overriding general links */
 
 main a.button,
 main a.button:visited {
-color: #ffffff;
+  color: #ffffff;
