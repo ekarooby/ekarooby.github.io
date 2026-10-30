@@ -64,6 +64,13 @@ main {
   padding: 65px 30px 80px;
 }
 
+/* Justify paragraphs throughout the website */
+
+main p {
+  text-align: justify;
+  hyphens: auto;
+}
+
 
 /* =========================================
    HOMEPAGE HERO
@@ -107,8 +114,6 @@ main {
   line-height: 1.5;
 }
 
-/* Research statement below subtitle */
-
 .research-statement {
   color: #123b5b;
   font-size: 21px;
@@ -119,8 +124,6 @@ main {
   padding-left: 16px;
   border-left: 4px solid #52708c;
 }
-
-/* Justified research introduction */
 
 .hero p {
   max-width: 800px;
@@ -265,8 +268,6 @@ main a {
 main a:hover {
   text-decoration: underline;
 }
-
-/* Keep buttons white, overriding general links */
 
 main a.button,
 main a.button:visited {
