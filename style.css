@@ -64,7 +64,7 @@ main {
   padding: 65px 30px 80px;
 }
 
-/* Justify paragraphs across the website */
+/* Justify paragraphs throughout the website */
 
 main p {
   text-align: justify;
@@ -248,34 +248,11 @@ main > h1 {
 
 
 /* =========================================
-   PUBLICATIONS
+   PUBLICATIONS - ORIGINAL STYLE
 ========================================= */
 
-/* Publication lists */
-
-main ol,
-main ul {
-  line-height: 1.8;
-}
-
-/* Justify journal papers, conference papers,
-   preprints, and other publication entries */
-
-main ol li,
-main ul li,
-main .publication,
-main .publication-entry,
-main .publications p {
-  text-align: justify !important;
-  text-justify: inter-word;
-  hyphens: auto;
-  overflow-wrap: break-word;
-  margin-bottom: 20px;
-}
-
-/* Publication numbering and spacing */
-
 ol li {
+  margin-bottom: 20px;
   padding-left: 8px;
 }
 
